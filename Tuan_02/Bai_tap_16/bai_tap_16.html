@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 16</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Travel reservation form</h1>
+            <h3>* denostes mandotory</h3>
+            <div>
+                <label for="name">full Name *: </label>
+                <input type="text" id="name" name="name" placeholder="FirtsName LastName" required>
+            </div>
+            <div>
+                <label for="email">Email address *:</label>
+                <input type="emial" name="email" id="email" placeholder="EMAIL ADDRESS" required>
+            </div>
+            <div>
+                <label for="tour">select tour package : </label>
+                <select name="tour" id="tour" >
+                    <option value="Goa">Goa</option>
+                    <option value="pari">Pari</option>
+                </select>
+            </div>
+            <div>
+                <label for="date">Arrival date *: </label>
+                <input type="date" id="date" name="date" required/>
+            </div>
+            <div>
+                <label for="numberPerson">Number Person *:</label>
+                <input type="number" name="numberPerson" id="numberPerson" placeholder="UNKNOWN TYPE" required>
+            </div>
+
+            <div>
+                <div>What would you want to avail ?</div>
+                <div>
+                    <label for="boading">Boading</label>
+                    <input type="checkbox" name="boading" id="boading">
+                </div>
+                <div>
+                    <label for="fooding">Fooding</label>
+                    <input type="checkbox" name="fooding" id="fooding">
+                </div>
+                <div>
+                    <label for="signseeing">Sign seeing</label>
+                    <input type="checkbox" name="signseeing" id="signseeing">
+                </div>
+            </div>
+            <div>
+                <label for="">Discount Coupon code : </label>
+                <input type="number" name="numberC" id="numberC" placeholder="UNKNOWN_TYPE"/>
+            </div>
+            <div>
+                <label for="">Term and conditions *: </label>
+                <span>
+                    <label for="iagree">I agree</label>
+                    <input type="radio" id="iagree" name="condition" checked/>
+                </span>
+                <span>
+                    <label for="idisagree">I disagree</label>
+                    <input type="radio" id="idisagree" name="condition"/>
+                </span>
+            </div>
+            <div>
+                <button type="submit">Complete reservation</button>
+            </div>
+
+
+
+        </form>
+    </div>
+
+    <style>
+        .container{
+            width: 300px;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #797979;
+        }
+        .container form > div{
+            margin-bottom: 10px;
+        }
+        .container form > div > label{
+            display: block;
+        }
+    </style>
+</body>
+</html>

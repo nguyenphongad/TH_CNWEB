@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+}
+.container .wrap-body{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header img{
+    width: 300px;
+}
+.header .heading{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #696969;
+}
+.nav-menu > div{
+    margin: 0px 5px;
+}
+.nav-menu > div:nth-child(2){
+    background-color: #0bad41;
+}
+.nav-menu > div:hover{
+    background-color: #0bad41;
+}
+.nav-menu > div > i{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-menu > div > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px;
+}
+
+/* content */
+
+.content-body{
+    width: 100%;
+    display: flex;
+}
+.content-body .left-menu{
+    width: 400px;
+    background-color: #c9c9c9;
+    padding: 20px;
+    font-weight: 600;
+}
+.content-body .left-menu > div:nth-child(1){
+    margin: 15px 0px;
+}
+.content-body .left-menu > div{
+    margin: 5px 0px;
+}
+.content-body .content-right{
+    width: 100%;
+    padding: 20px;
+}
+.content-body .content-right .banner img{
+    width: 100%;
+}

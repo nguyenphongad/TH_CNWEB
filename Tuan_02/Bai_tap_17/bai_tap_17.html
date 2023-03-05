@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 17</title>
+</head>
+
+<body>
+    a.
+    <div class="container">
+        <form>
+            <h4 style="text-align: center;">SUVERY FORM</h4>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis facilis at iusto placeat ipsa,
+            quae provident tempore libero inventore totam perferendis.
+            <table class="table_firt">
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>
+                            <label for="name">What id your name ? </label>
+                            <input type="text" name="name" id="name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. </td>
+                        <td>
+                            <label for="date">What is your date of birth ? </label>
+                            <div>
+                                <span>
+                                    Month :
+                                    <select id="month-birth">
+                                        <option value="january" selected>January</option>
+                                        <option value="march">March</option>
+                                    </select>
+                                </span>
+                                <span>
+                                    Date :
+                                    <select id="day">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </span>
+                                <span>
+                                    <label for="year-date">year</label>
+                                    <input type="number" id="year-date" value="19">
+                                </span>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3. </td>
+                        <td>
+                            <label for="content">What id your mailing address
+                                (if you woul like to have a hard copy of our catalog sent to you) ?
+                            </label><br>
+                            <textarea id="content" style="width: 300px;;height: 50px;"> NUMBER : P. O ZIP/ CODE 
+                        </textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>4. </td>
+                        <td>
+                            <label for="email">Email address ?</label><br>
+                            <input type="email" id="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5. </td>
+                        <td>
+                            Have viewed our online priduct caralog ?<br>
+                            <label for="yes">Yes</label> : <input type="radio" name="view" id="yes" checked> |
+                            <label for="no">No</label> : <input type="radio" name="view" id="no">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>
+                            If so, what product(s) be side the one you are ordering, might you be intereted in
+                            purding in the future ? (check all the apply)
+                            <div>
+                                <input type="checkbox" name="vcr" id="vcr">
+                                <label for="vcr">VCR</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="tv" id="tv">
+                                <label for="tv">Big screen TV</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="audio" id="audio">
+                                <label for="audio">Audio EquipMent</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="video" id="video">
+                                <label for="video">Video EquipMent</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="camera" id="camera">
+                                <label for="camera">Camera EquipMent</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="other" id="other" checked>
+                                <label for="other">other :</label>
+                                <input type="text" name="other" id="other">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7. </td>
+                        <td>
+                            <label for="order-form">Do you have any question ? </label><br>
+                            <textarea id="order-form" style="width: 300px;;height: 100px;">your input : 
+                            </textarea>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div style="text-align: center;">
+                <button type="submit">Sent form</button>
+                <button type="reset">Clear form</button>
+
+            </div>
+        </form>
+    </div>
+
+    b.
+    <div class="container_b">
+        <form>
+            <div>
+                <label for="brower">Brower</label>
+                <input type="file" id="brower">
+            </div>
+            <div>
+                <label for="usename">Username</label>
+                <input type="text" id="usename">
+            </div>
+            <div>
+                <label for="encry">Encryption : </label>
+                <select>
+                    <option value="2048" checked>2048 (hight grade)</option>
+                    <option value="2044">2044 (hight grade)</option>
+                </select>
+            </div>
+            <div>
+                0<input type="range" min="0" max="100">100 <br>
+                <input value="50">
+            </div>
+            <div>
+                <label for="birtday">Birtday</label>
+                <input type="date" id="birtday">
+            </div>
+
+            <div>
+                <label for="color">Select color : </label>
+                <input type="color" id="color" value="#ff0000">
+            </div>
+
+            <div>
+                <label for="birtday-month">birtday (month and year)</label>
+                <input type="month" name="m-y" id="birtday-month">
+            </div>
+
+            <div>
+                <label for="birtday-week">birtday (week)</label>
+                <input type="week" name="week" id="birtday-week">
+            </div>
+
+            <div>
+                <label for="birtday-time">birtday (time)</label>
+                <input type="time" name="time" id="birtday-time">
+            </div>
+
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="telephone">Telephone : </label>
+                <input type="number" name="telephone" id="telephone">
+            </div>
+            <div style="text-align: center;">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <style>
+        .container,
+        .container_b {
+            width: 650px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #fcce77;
+        }
+
+        .table_firt tr td {
+            vertical-align: text-top;
+            padding: 10px 0px;
+        }
+
+        .table_firt tr td:nth-child(1) {
+            width: 30px;
+            text-align: center;
+        }
+
+        .container_b {
+            width: 400px;
+            background: none;
+            border: 1px solid;
+        }
+
+        .container_b form > div {
+            margin: 20px 0px;
+        }
+    </style>
+</body>
+
+</html>

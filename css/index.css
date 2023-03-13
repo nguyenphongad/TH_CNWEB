@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Enriqueta', arial, serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .wrap_container {
+    width: 100%;
+    display: flex;
+}
+
+.nav__menu--left {
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.nav__menu--left .wrap__menu--left {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap__menu--left .firt__box_menu {
+    height: 100%;
+    order: 1;
+}
+
+.firt__box_menu .menu-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firt__box_menu .menu-left>a {
+    width: 30px;
+    display: block;
+    margin: 15px 0px;
+    position: relative;
+}
+
+.firt__box_menu .menu-left>a:nth-child(2)::before {
+    content: 'N';
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    background-color: red;
+    color: #ffffff;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.firt__box_menu .menu-left>a:nth-child(4) {
+    transform: scale(2);
+}
+
+.firt__box_menu .menu-left a img {
+    width: 100%;
+}
+
+.wrap__menu--left .setting__account {
+    order: 2;
+}
+
+.setting__account .wrap__setting--acount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.setting__account .wrap__setting--acount  >a{
+    width: 40px;
+    margin-top: 10px;
+}
+.setting__account .wrap__setting--acount a img{
+    width: 100%;
+}
+
+
+
+
+
+.content__news_status {
+    width: 100%;
+    padding: 20px 35px;
+}
+
+.box__chat--right {
+    width: 500px;
+    height: 100vh;
+    background: blue;
+    position: sticky;
+    top: 0px;
+}
+.box__chat--right .box__column--control-view{
+    display: flex;
+    flex-direction: column;
+}
+.box__column--control-view .view__list_in{
+    
+}
+.box__column--control-view .view__list_in .view_chat_group{
+
+}

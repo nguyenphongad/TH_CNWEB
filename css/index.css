@@ -110,7 +110,6 @@ body {
 .wrap_news-center .header__title--metting {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
 }
 
 .header__title--metting .text_title {
@@ -121,7 +120,7 @@ body {
 .header__title--metting .end__box .time__out {
     width: 85px;
     height: 35px;
-    border: 2px solid red;
+    border: 2px solid #F22128;
     border-radius: 30px;
     padding: 5px;
     display: flex;
@@ -157,7 +156,7 @@ body {
 
 
 .time_start--group .box__internal {
-    padding: 7px 10px;
+    padding: 5px 8px;
     background-color: #E34D73;
     border-radius: 20px;
     display: flex;
@@ -202,22 +201,24 @@ body {
 }
 
 .wrap_news-center .front__pin--slideshow .border_img--slide {
-    width: 450px;
+    width: 500px;
     background-color: #e9e9e9;
     border-radius: 10px;
     position: relative;
 }
 
-.wrap_news-center .front__pin--slideshow .border_img--slide > img {
+.wrap_news-center .front__pin--slideshow .border_img--slide>img {
     width: 100%;
     display: block;
     border-radius: 10px;
 }
-.pos-abs{
+
+.pos-abs {
     position: absolute;
-    top:10px;
+    top: 10px;
 }
-.name__present{
+
+.name__present {
     left: 15px;
     padding: 10px;
     background-color: #00000070;
@@ -225,12 +226,14 @@ body {
     display: flex;
     align-items: center;
 }
-.name__present > span{
+
+.name__present>span {
     padding-left: 20px;
     color: #ffffff;
     font-size: 14px;
 }
-.name__present::before{
+
+.name__present::before {
     content: '';
     width: 10px;
     height: 10px;
@@ -238,59 +241,72 @@ body {
     position: absolute;
     border-radius: 100%;
 }
-.btn__mic_on{
+
+.btn__mic_on {
     right: 15px;
 }
 
 
 
-.wrap_news-center .wrap-item_participants--bottom{
+.wrap_news-center .wrap-item_participants--bottom {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.wrap-item_participants--bottom .item_participants-bottom{
+
+.wrap-item_participants--bottom .item_participants-bottom {
     position: relative;
 }
-.wrap-item_participants--bottom .item_participants-bottom img{
+
+.wrap-item_participants--bottom .item_participants-bottom img {
+    width: 240px;
     border-radius: 10px;
 }
-.item_participants-bottom .name__present{
+
+.item_participants-bottom .name__present {
     padding: 5px 10px;
     left: 10px !important;
 }
-.item_participants-bottom .name__present::before{
-    width: 7px;height: 7px;
+
+.item_participants-bottom .name__present::before {
+    width: 7px;
+    height: 7px;
 }
-.item_participants-bottom .btn__mic_on{
-    right: 10px !important; 
+
+.item_participants-bottom .btn__mic_on {
+    right: 10px !important;
 }
-.item_participants-bottom .btn__mic_on img{
+
+.item_participants-bottom .btn__mic_on img {
     width: 30px;
     border-radius: 5px;
 }
 
 
 
-.wrap_news-center .control__meeting--bottom{
+.wrap_news-center .control__meeting--bottom {
     position: sticky;
     bottom: 0px;
 }
-.control__meeting--bottom .wrap_control-meeting{
+
+.control__meeting--bottom .wrap_control-meeting {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wrap_control-meeting > div{
+
+.wrap_control-meeting>div {
     height: 45px;
-    margin:0px 10px;
+    margin: 0px 10px;
 }
-.wrap_control-meeting > div > img{
+
+.wrap_control-meeting>div>img {
     height: 100%;
     cursor: pointer;
 }
-.wrap_control-meeting > .btn__end--meeting{
+
+.wrap_control-meeting>.btn__end--meeting {
     background-color: #F22128;
     padding: 0px 15px;
     display: flex;
@@ -335,18 +351,51 @@ body {
 }
 
 .box__chat--right .box__column--control-view>div {
-    padding: 35px;
-
+    padding: 20px;
 }
 
 .box__column--control-view .view__list_in {
-    height: 100%;
-    flex: 4;
     border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-between;
 }
+.view__list_in .btn__add_user-part{
+    border: 1px solid #dd1f4e;
+    color: #dd1f4e;
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.view__list_in .btn__add_user-part > div:nth-child(1){
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+
 
 .box__column--control-view .view_chat_group {
     height: 100%;
-    flex: 6;
     border-top: 1px solid #e7e7e7;
+}
+
+
+.heading__text {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+}
+
+.number__length-list {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e34d722d;
+    border-radius: 100%;
+    color: #dd1f4e;
+    font-size: 15px;
+    margin-left: 10px;
 }

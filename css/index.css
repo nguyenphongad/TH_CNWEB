@@ -356,10 +356,33 @@ body {
 
 .box__column--control-view .view__list_in {
     border-bottom: 1px solid #e7e7e7;
+}
+.box__column--control-view .view__list_in .top_heading{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
-.view__list_in .btn__add_user-part{
+.box__column--control-view .view__list_in .show__list_user-part{
+    width: 100%;
+}
+.show__list_user-part .item_user_view-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.show__list_user-part .item_user_view-part > div{
+    display: flex;
+    align-items: center;
+}
+.show__list_user-part .item_user_view-part .border_avatar_user-part img{
+    margin-right: 10px;
+}
+.show__list_user-part .item_user_view-part .select__operation > div {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.top_heading .btn__add_user-part{
     border: 1px solid #dd1f4e;
     color: #dd1f4e;
     padding: 3px 15px;
@@ -368,7 +391,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-.view__list_in .btn__add_user-part > div:nth-child(1){
+.top_heading .btn__add_user-part > div:nth-child(1){
     margin-right: 10px;
     font-size: 23px;
 }
